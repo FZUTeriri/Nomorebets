@@ -1,0 +1,22 @@
+/* 以下是音乐播放器的样式 */
+.audiosBox{
+    position: fixed;
+    bottom: 5rpx;
+    left: 3rpx;
+    z-index: 3;
+}
+/*按钮大小  */
+.audioOpen{
+  width: 50rpx;
+  height: 50rpx;
+  /* border: 2rpx solid #4c9dee; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ /* 按钮上的图片 */
+ .audioOpen image{
+  width: 50rpx;
+  height:50rpx;
+}

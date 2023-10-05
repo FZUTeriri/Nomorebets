@@ -1,0 +1,17 @@
+<bgm />
+<view class="content">
+    <image class='background' src="https://ooo.0x0.ooo/2023/10/03/O1kGcK.jpg" mode="scaleToFill"></image>
+</view>
+<view class="box">
+  <view class="button_back_init">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_init">
+        <image src="../resource/gif6.gif"></image>
+      </view>
+  </view>
+  <view class="container">
+    <text bindtap="createroom">创建房间</text>
+    <text bindtap="joinroom">加入房间</text>
+    <text bindtap="matchonline">在线匹配</text>
+  </view>
+
+</view>

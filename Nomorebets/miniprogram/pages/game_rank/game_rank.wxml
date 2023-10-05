@@ -1,0 +1,23 @@
+<bgm />
+<view class="content">
+    <image class='background' src="https://ooo.0x0.ooo/2023/10/03/O1kGcK.jpg" mode="scaleToFill"></image>
+</view>
+<view class="box">
+  <view class="button_back_init">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_init">
+        <image src="../resource/gif6.gif"></image>
+      </view>
+  </view>
+  <view class="rank">
+      <view class ="name">
+        <text>姓名</text>
+        <text wx:for="{{res}}" wx:key="index">{{item.name}}</text>
+      </view>
+      <view class ="score">
+        <text>分数</text>
+        <text wx:for="{{res}}" wx:key="index">{{item.score}}</text>
+      </view>
+  </view>
+
+
+</view>

@@ -1,0 +1,37 @@
+<!--pages/game_select.wxml-->
+<bgm />
+<view class="content">
+    <image class='background' src="https://ooo.0x0.ooo/2023/10/02/O1TZCq.png" mode="scaleToFill"></image>
+</view>
+<view class="box">
+  <view class="button_back_init">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_init">
+        <image src="../resource/gif6.gif"></image>
+      </view>
+  </view>
+  <view class="button_rule">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="rule">
+        <image src="https://ooo.0x0.ooo/2023/10/02/O1BovU.gif "></image>
+      </view>
+  </view>
+  <view class="button_location">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="location">
+      <image src="../resource/local.png"></image>
+      </view>
+  </view>
+  <view class="button_PVE">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="PVE">
+        <image src="../resource/PVE.png"></image>
+      </view>
+  </view>
+  <view class="button_PVP">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="PVP">
+        <image src="../resource/PVP.png"></image>
+      </view>
+  </view>
+  <view class="button_rank">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="rank">
+        <image src="../resource/rank.png"></image>
+      </view>
+  </view>
+</view>

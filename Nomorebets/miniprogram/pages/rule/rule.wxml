@@ -1,0 +1,21 @@
+<bgm />
+<view class="content">
+    <image class='background' src="{{rule_page}}" mode="aspectFill"></image>
+</view>
+<view class="box">
+  <view class="button_back_last">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_last">
+        <image src="../resource/gif6.gif"></image>
+      </view>
+  </view>
+  <view class="button_next">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_next" hidden="{{hidden}}">
+        <image src="https://ooo.0x0.ooo/2023/10/02/O1BaTp.gif"></image>
+      </view>
+  </view>
+  <view class="button_home">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_home">
+        <image src="https://ooo.0x0.ooo/2023/10/02/O1BqcY.gif"></image>
+      </view>
+  </view>
+</view>

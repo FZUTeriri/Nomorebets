@@ -1,0 +1,79 @@
+<bgm />
+<view class="content">
+    <image class='background' src="../resource/fightback.jpg" mode="scaleToFill"></image>
+</view>
+
+<view class="box">
+  <view class="button_back_init">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_init">
+        <image src="../resource/gif6.gif"></image>
+      </view>
+    </view>
+
+    <view class = "player1">
+      <view class= "player1_section">
+        <text>投掷区域</text>
+        <view class="drop_section">
+          <image wx:for="{{player1_dice}}" src="{{p_img[item]}}" data-index="{{index}}" bindtap="player1_select_Click"></image>
+        </view>
+        <text>{{player1_lock_text}}</text>
+        <view class="drop_section">
+          <image wx:for="{{player1_lock}}" src="{{p_img[item]}}" data-index="{{index}}" bindtap="player1_return_Click"></image>
+        </view>
+        <text>当前筹码：{{player1_money}}</text>
+        <view class = "mult" hidden="{{!player1_islock||!player2_islock}}">
+          <image src="{{m_img[0]}}" data-index="0" bindtap="player1_mult_Click" hidden="{{player1_mult!=-1}}"></image>
+          <image src="{{m_img[1]}}" data-index="1" bindtap="player1_mult_Click" hidden="{{player1_mult!=-1}}"></image>
+          <image src="{{m_img[2]}}" data-index="2" bindtap="player1_mult_Click" hidden="{{player1_mult!=-1}}"></image>
+          <image src="{{m_img[3]}}" data-index="3" bindtap="player1_mult_Click" hidden="{{player1_mult!=-1}}"></image>
+        </view>
+      </view>
+      <view class= "player1_info">
+        <text>玩家一</text>
+        <image src="./resource/player1.png"></image>
+        <text>{{auto_play}}</text>
+        <view class="button_auto">
+          <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="button_auto">
+            <image src="https://ooo.0x0.ooo/2023/10/03/O1kSOa.gif"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class = "info">
+      <text>当前局数:</text>
+      <text>{{cur_times}}</text>
+      <text>总局数:</text>
+      <text>{{total_times}}</text>
+      <text>剩余局数:</text>
+      <text>{{left_times}}</text>
+      <text>当前倍率:</text>
+      <text>{{cur_mul}}</text>
+      <view class="button_section">
+        <view class="player1_button">
+          <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="player1_button">
+            <image src="https://ooo.0x0.ooo/2023/10/02/O1BBOv.gif "></image>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class = "player2">
+      <view class= "player2_section">
+        <text>投掷区域</text>
+        <view class="drop_section">
+          <image wx:for="{{player2_dice}}" src="{{p_img[item]}}" data-index="{{index}}"></image>
+        </view>
+        <text>{{player2_lock_text}}</text>
+        <view class="drop_section">
+          <image wx:for="{{player2_lock}}" src="{{p_img[item]}}" data-index="{{index}}"></image>
+        </view>
+        <text>当前筹码：{{player2_money}}</text>
+      </view>
+      <view class= "player2_info">
+        <text>玩家二</text>
+        <image src="../resource/player2.jpg"></image>
+      </view>
+    </view>
+
+</view>

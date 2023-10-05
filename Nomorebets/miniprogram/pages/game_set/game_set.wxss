@@ -1,0 +1,116 @@
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+
+.box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .button_back_init{
+  width: 5%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:0;
+  top:5vmin;
+}
+.box .button_back_init image{
+  width: 15vmin;
+  height: 15vmin;
+}
+
+.box .button_music{
+  width: 5%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:3vmin;
+  bottom:5vmin;
+}
+.box .button_music image{
+  width: 15vmin;
+  height: 15vmin;
+}
+
+.box .button_begin{
+  width: 25%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.box .button_begin image{
+  width: 25vmin;
+  height: 50vmin;
+}
+
+
+.game_times{
+  width: 35%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:0vmin;
+  top:30vmin;
+}
+
+.game_times image{
+  width: 10vmin;
+  height: 10vmin;
+}
+
+.game_times text{
+  color: black;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.game_times_2{
+  width: 35%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:0vmin;
+  bottom:20vmin;
+}
+
+.game_times_2 image{
+  width: 10vmin;
+  height: 10vmin;
+}
+
+.game_times_2 text{
+  color: black;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}

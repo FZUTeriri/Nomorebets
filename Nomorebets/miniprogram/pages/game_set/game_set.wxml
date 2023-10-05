@@ -1,0 +1,37 @@
+<bgm />
+<view class="content">
+    <image class='background' src="https://ooo.0x0.ooo/2023/10/02/O1Tyic.png" mode="scaleToFill"></image>
+</view>
+<view class="box">
+  <view class="button_back_init">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_init">
+        <image src="../resource/gif6.gif"></image>
+      </view>
+  </view>
+
+  <view class="game_times">
+    <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="sub_times">
+      <image src="../resource/sub.png"></image>
+    </view>
+    <text class ="game_text">{{game_num}}</text>
+    <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="add_times">
+      <image src="../resource/add.png"></image>
+    </view>
+  </view>
+
+  <view class="game_times_2">
+    <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="sub_money">
+      <image src="../resource/sub.png"></image>
+    </view>
+    <text class ="game_text">{{game_money}}</text>
+    <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="add_money">
+      <image src="../resource/add.png"></image>
+    </view>
+  </view>
+
+  <view class="button_begin">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="begin">
+        <image src="https://ooo.0x0.ooo/2023/10/02/O1Tx3L.png"></image>
+      </view>
+  </view>
+</view>

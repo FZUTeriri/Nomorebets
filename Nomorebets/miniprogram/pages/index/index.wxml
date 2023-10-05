@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<bgm />
+<view class="content">
+    <image class='background' src="https://ooo.0x0.ooo/2023/10/02/O1Tg4r.png " mode="scaleToFill"></image>
+</view>
+<view class="box">
+  <view class="button">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="start_game">
+        <image src="https://ooo.0x0.ooo/2023/10/02/O159Ta.gif"></image>
+      </view>
+  </view>
+      <text class="begin_text">本小程序仅用于作业展示，无其他用途</text>
+</view>

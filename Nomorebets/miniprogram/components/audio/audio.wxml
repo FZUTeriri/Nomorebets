@@ -1,0 +1,8 @@
+<view class='audiosBox'>
+    <view class="audioOpen" catchtap="tigger" wx:if="{{!isOpen}}">
+      <image  src="../resource/gif4.gif" ></image>
+    </view>
+    <view class="audioOpen" catchtap="tigger" wx:if="{{isOpen}}">
+      <image   src="../resource/gif7.gif" ></image>
+    </view>
+</view>

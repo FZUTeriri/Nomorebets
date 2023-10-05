@@ -1,0 +1,23 @@
+<bgm />
+<view class="content">
+    <image class='background' src="https://ooo.0x0.ooo/2023/10/02/O1TArY.png" mode="scaleToFill"></image>
+</view>
+
+<view class="box">
+  <view class="score_tab">
+    <view class="player_tab">
+      <text>玩家一最终筹码：</text>
+      <text>{{player1_money}}</text>
+    </view>
+    <view class="player_tab">
+      <text>{{mode}}最终筹码：</text>
+      <text>{{player2_money}}</text>
+    </view>
+  </view>
+  <view class="button_next">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_next">
+        <image src="https://ooo.0x0.ooo/2023/10/02/O1BaTp.gif"></image>
+      </view>
+  </view>
+
+</view>

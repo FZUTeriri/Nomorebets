@@ -1,0 +1,133 @@
+/* pages/game_select.wxss */
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+
+.box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .button_back_init{
+  width: 5%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:0;
+  top:5vmin;
+}
+.box .button_back_init image{
+  width: 15vmin;
+  height: 15vmin;
+}
+
+.box .button_music{
+  width: 5%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:3vmin;
+  bottom:5vmin;
+}
+.box .button_music image{
+  width: 15vmin;
+  height: 15vmin;
+}
+
+.box .button_rule{
+  width: 5%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:15vmin;
+  top:3vmin;
+}
+.box .button_rule image{
+  width: 15vmin;
+  height: 15vmin;
+}
+
+
+.box .button_location{
+  width: 15%;
+  height:50%;
+  display: flex;
+  position: absolute;
+  left: 15%;
+  bottom: 10vmin;
+}
+
+.box .button_location image{
+  width: 20vmin;
+  height: 20vmin;
+  position: relative;
+  left:15%;
+}
+.box .button_PVE{
+  width: 15%;
+  height:50%;
+  display: flex;
+  position: absolute;
+  left: 35%;
+  bottom: 10vmin;
+}
+
+.box .button_PVE image{
+  width: 20vmin;
+  height: 20vmin;
+  position: relative;
+  left:15%;
+}
+.box .button_PVP{
+  width: 15%;
+  height:50%;
+  display: flex;
+  position: absolute;
+  left: 55%;
+  bottom: 10vmin;
+}
+
+.box .button_PVP image{
+  width: 20vmin;
+  height: 20vmin;
+  position: relative;
+  left:15%;
+}
+
+.box .button_rank{
+  width: 15%;
+  height:50%;
+  display: flex;
+  position: absolute;
+  left: 78%;
+  bottom: 8vmin;
+}
+
+.box .button_rank image{
+  width: 20vmin;
+  height: 20vmin;
+  position: relative;
+  left:15%;
+}
+
+
+

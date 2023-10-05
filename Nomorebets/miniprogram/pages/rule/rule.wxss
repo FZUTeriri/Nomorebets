@@ -1,0 +1,68 @@
+/* pages/rule/rule.wxss */
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+
+.box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .button_back_last{
+  width: 5%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:0;
+  top:5vmin;
+}
+.box .button_back_last image{
+  width: 15vmin;
+  height: 15vmin;
+}
+
+.box .button_next{
+  width: 5%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right:3vmin;
+  bottom:5vmin;
+}
+
+.box .button_next image{
+  width: 20vmin;
+  height: 20vmin;
+}
+
+.box .button_home{
+  width: 5%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:3vmin;
+}
+
+.box .button_home image{
+  width: 15vmin;
+  height: 15vmin;
+}

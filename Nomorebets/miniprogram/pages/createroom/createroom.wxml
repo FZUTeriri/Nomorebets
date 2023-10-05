@@ -1,0 +1,49 @@
+<bgm />
+<view class="content">
+    <image class='background' src="https://ooo.0x0.ooo/2023/10/03/O1kGcK.jpg" mode="scaleToFill"></image>
+</view>
+
+<view class="box">
+  <view class="game_times">
+    <text>局数</text>
+    <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="sub_times">
+      <image src="../resource/sub.png"></image>
+    </view>
+    <text class ="game_text">{{game_num}}</text>
+    <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="add_times">
+      <image src="../resource/add.png"></image>
+    </view>
+  </view>
+
+  <view class="game_times_2">
+    <text>筹码</text>
+    <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="sub_money">
+      <image src="./resource/sub.png"></image>
+    </view>
+    <text class ="game_text">{{game_money}}</text>
+    <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="add_money">
+      <image src="./resource/add.png"></image>
+    </view>
+  </view>
+
+
+
+  <view class="button_back_init">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_init">
+        <image src="./resource/gif6.gif"></image>
+      </view>
+  </view>
+  <view class="container">
+  <view class="input-component">
+    <input placeholder="请输入房间名:(字母或数字)" auto-focus="true" bindinput="setRoomName" maxlength="5"/>
+  </view>
+  <view class="input-component">
+    <input placeholder="请输入房间密码:(可以为空)" bindinput="setRoomPsw" maxlength="8"/>
+  </view>
+ 
+  <button class="submit-btn" bindtap="createRoom">
+    <view>创建房间</view>
+  </button>
+
+  </view>
+</view>

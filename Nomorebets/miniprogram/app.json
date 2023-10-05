@@ -1,0 +1,26 @@
+{
+  "usingComponents": {
+    "bgm": "/components/audio/audio"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/game_rank/game_rank",
+    "pages/game_select/game_select",
+    "pages/game_PVP/game_PVP",
+    "pages/game_room/game_room",
+    "pages/joinroom/joinroom",
+    "pages/createroom/createroom",
+    "pages/game_PVE/game_PVE",
+    "pages/game_end/game_end",
+    "pages/game_location/game_location",
+    "pages/game_set/game_set",
+    "pages/rule/rule",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "pageOrientation": "landscape",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

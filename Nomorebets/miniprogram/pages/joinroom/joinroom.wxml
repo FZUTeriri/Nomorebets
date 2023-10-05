@@ -1,0 +1,25 @@
+<bgm />
+<view class="content">
+    <image class='background' src="https://ooo.0x0.ooo/2023/10/02/O159Ta.gif" mode="scaleToFill"></image>
+</view>
+
+<view class="box">
+  <view class="button_back_init">
+      <view hover-class="button_hover" hover-start-time="20" hover-stay-time="70" bindtap="back_to_init">
+        <image src="../resource/gif6.gif"></image>
+      </view>
+  </view>
+  <view class="container">
+  <view class="inputRoomInfo">
+    <input placeholder="输入房间名" bindinput="setRoomName" maxlength="5"/>
+  </view>
+  <view class="inputRoomInfo">
+    <input placeholder="输入房间密码" bindinput="setRoomPsw" maxlength="8"/>
+  </view>
+  <button class="joinRoomBtn" bindtap="requestJoinRoom">
+    <view>加入房间</view>
+  </button>
+</view>
+
+</view>
+
