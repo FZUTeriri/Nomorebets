@@ -7,7 +7,7 @@
 # server
 这是nodejs服务器后端程序，用于实现客户端的在线对战和排行榜功能
 
-#遗传算法
+# 遗传算法
 这是采用遗传算法找alpha,beta,gama参数的代码
 
 
@@ -20,6 +20,6 @@ This is the code for the WeChat miniprogram, which can be run and debugged on th
 # server
 This is the backend program of the nodejs server, used to implement the functions of online battles and leaderboards on the client side
 
-#Genetic algorithm
+# Genetic algorithm
 This is the code that uses a genetic algorithm to find alpha, beta, gama parameters
 
