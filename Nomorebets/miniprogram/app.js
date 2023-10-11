@@ -11,6 +11,7 @@ App({
     game_num:10,//总局数
     game_money:1000,//筹码数
     userInfo:"",
+    serverurl:"ws://127.0.0.1:3001",
   },
 
   onLaunch: function () { //启动小程序执行方法

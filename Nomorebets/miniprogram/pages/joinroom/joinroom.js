@@ -84,7 +84,7 @@ Page({
       let socketOpen=false;
       let socketMsgQueue=["submitType=JoinRoom"+"&roomName="+this.data.RoomName+"&roomPsw="+this.data.RoomPsw+"&otherName="+this.data.userInfo.nickName];
       wx.connectSocket({
-        url: 'ws://127.0.0.1:3001',
+        url: app.globalData.serverurl,
       });
 
       wx.onSocketOpen((result) => {

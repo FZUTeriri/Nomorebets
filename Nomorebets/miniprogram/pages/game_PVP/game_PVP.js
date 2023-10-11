@@ -310,7 +310,7 @@ Page({
   onReady() {
     console.log("Ready");
     wx.connectSocket({
-      url: 'ws://127.0.0.1:3001',
+      url: app.globalData.serverurl,
     });
     wx.onSocketOpen(() => {
       if(!this.data.socketOpen){

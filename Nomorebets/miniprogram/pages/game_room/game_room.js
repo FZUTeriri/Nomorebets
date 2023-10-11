@@ -99,7 +99,7 @@ Page({
     let that=this;
     let socketMsgQueue=["submitType=OnlineMatch"];
     wx.connectSocket({
-      url: 'ws://127.0.0.1:3001',
+      url: app.globalData.serverurl,
     });
     wx.onSocketOpen((result) => {
       that.data.socketOpen=true;

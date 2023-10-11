@@ -14,7 +14,7 @@ Page({
    */
   onLoad(options) {
     wx.connectSocket({
-      url: 'ws://127.0.0.1:3001',
+      url: app.globalData.serverurl,
       success: () => {
         wx.onSocketOpen(() => {
           this.get_rank()

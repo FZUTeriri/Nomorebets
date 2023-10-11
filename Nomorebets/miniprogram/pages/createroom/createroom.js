@@ -78,7 +78,7 @@ Page({
       let socketOpen=false;
       let socketMsgQueue=["submitType=CreateRoom"+"&roomName="+this.data.RoomName+"&roomPsw="+this.data.RoomPsw+"&ownerName="+this.data.userInfo.nickName+"&initmoney="+this.data.game_money+"&totaltimes="+this.data.game_num];
       wx.connectSocket({
-        url: 'ws://127.0.0.1:3001',
+        url: app.globalData.serverurl,
       });
       wx.onSocketOpen((result) => {
         socketOpen=true;

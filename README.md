@@ -7,7 +7,7 @@
 - miniprogram
 在**微信小程序开发者工具**中运行
 - server
-需安装**node.js**环境
+需安装**node.js**环境，**MySQL数据库**
 - 遗传算法
 需安装**Python**环境并且安装**numpy**库
 
@@ -19,9 +19,9 @@
 
 # 使用方法
 - miniprogram
-在**微信小程序开发者工具**中编译运行即可看到效果
+在**微信小程序开发者工具**中编译运行即可看到效果，若使用在线功能，需要在**app.js**中修改**serverurl**对应的后端服务器。
 - server
-可使用**cmd控制台**在目录下运行**node server.js**命令
+可使用**cmd控制台**在目录下运行**node server.js**命令，需根据**数据库**和**服务器ip地址**修改**node server.js**
 - 遗传算法
 使用**Python**编译运行
 
@@ -39,7 +39,7 @@
 - miniprogram
 Run in the **WeChat Mini Program Developer Tool**
 - server
-You need to install a **node.js** environment
+You need to install a **node.js** environment,**MySQL database**
 - Genetic algorithms
 You need to install the **Python** environment and install the **Numpy** library
 
@@ -51,9 +51,9 @@ Compile with the **Python compilation tool**
 
 # Usage
 - miniprogram
-Compile and run in the **WeChat Mini Program Developer Tool** to see the effect
+Compile and run in the **WeChat Mini Program Developer Tool** to see the effect. If you want to use the online function, you need to modify the value which named **serverurl** in the app.js
 - server
-You can use the **cmd** console to run the **node server .js** command under the directory
+You can use the **cmd** console to run the **node server .js** command under the directory. You need to modify **database** and **server IP**
 - Genetic algorithms
 Compile and run using **Python**
 

@@ -75,7 +75,7 @@ Page({
                 console.log('授权成功', res);
                 app.globalData.userInfo=res.userInfo;
                 wx.connectSocket({
-                  url: 'ws://127.0.0.1:3001',
+                  url: app.globalData.serverurl,
                 });
             },
             fail:(err)=> {
